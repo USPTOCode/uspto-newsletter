@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Node
+node_modules/
+dist/
+.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# Project specific
+backend/data/generated/*
+backend/data/cache/*
+!backend/data/generated/.gitkeep
+!backend/data/cache/.gitkeep

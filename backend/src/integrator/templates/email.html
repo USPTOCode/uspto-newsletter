@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <style>
+        /* Email client safe styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            color: #333333;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .header {
+            background-color: #2c5282;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+        .section {
+            background-color: #ffffff;
+            padding: 20px;
+            margin: 20px 0;
+            border: 1px solid #e2e8f0;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 12px;
+            color: #718096;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>{{ title }}</h1>
+        </div>
+
+        {% for section_name, section in sections.items() %}
+        <div class="section">
+            <h2>{{ section.title }}</h2>
+            {{ section.content | safe }}
+        </div>
+        {% endfor %}
+
+        <div class="footer">
+            <p>Generated: {{ metadata.generatedAt }}</p>
+            <p>USPTO Open Data Enthusiasts Club</p>
+            <p>
+                Sources: 
+                {{ metadata.sourceCounts.papers }} papers,
+                {{ metadata.sourceCounts.blog_posts }} blog posts,
+                {{ metadata.sourceCounts.github_projects }} GitHub projects
+            </p>
+            <p>
+                <a href="{{ web_url }}">View in browser</a> |
+                <a href="{{ unsubscribe_url }}">Unsubscribe</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>

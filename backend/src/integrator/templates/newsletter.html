@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            color: #333;
+        }
+        h1 {
+            color: #2c5282;
+            border-bottom: 2px solid #4299e1;
+            padding-bottom: 0.5rem;
+        }
+        h2 {
+            color: #2d3748;
+            margin-top: 2rem;
+        }
+        .section {
+            background: #fff;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin: 1rem 0;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .metadata {
+            font-size: 0.875rem;
+            color: #718096;
+            border-top: 1px solid #e2e8f0;
+            margin-top: 2rem;
+            padding-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>{{ title }}</h1>
+    
+    {% for section_name, section in sections.items() %}
+    <div class="section">
+        <h2>{{ section.title }}</h2>
+        {{ section.content | markdown }}
+    </div>
+    {% endfor %}
+    
+    <div class="metadata">
+        <p>Generated: {{ metadata.generatedAt }}</p>
+        <p>USPTO Open Data Enthusiasts Club</p>
+        <p>
+            Sources: 
+            {{ metadata.sourceCounts.papers }} papers,
+            {{ metadata.sourceCounts.blog_posts }} blog posts,
+            {{ metadata.sourceCounts.github_projects }} GitHub projects
+        </p>
+    </div>
+</body>
+</html>

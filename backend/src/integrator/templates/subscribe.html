@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscribe to USPTO Open Data Newsletter</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            max-width: 500px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .subscribe-form {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+        }
+
+        input[type="email"],
+        input[type="text"],
+        select {
+            width: 100%;
+            padding: 0.5rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+
+        .preferences {
+            margin-top: 1rem;
+            padding: 1rem;
+            background: #f7fafc;
+            border-radius: 4px;
+        }
+
+        .checkbox-group {
+            margin: 0.5rem 0;
+        }
+
+        button {
+            background: #2c5282;
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 4px;
+            font-size: 1rem;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        button:hover {
+            background: #2b6cb0;
+        }
+
+        .error {
+            color: #e53e3e;
+            font-size: 0.875rem;
+            margin-top: 0.25rem;
+        }
+
+        .success {
+            background: #c6f6d5;
+            color: #2f855a;
+            padding: 1rem;
+            border-radius: 4px;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="subscribe-form">
+        <h1>Subscribe to Updates</h1>
+        <p>Stay informed about the latest in patent data analysis and open data initiatives.</p>
+
+        <form id="newsletter-form" action="/subscribe" method="POST">
+            <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="name">Name (optional)</label>
+                <input type="text" id="name" name="name">
+            </div>
+
+            <div class="preferences">
+                <h3>Preferences</h3>
+                
+                <div class="form-group">
+                    <label for="format">Preferred Format</label>
+                    <select id="format" name="format">
+                        <option value="html">HTML (Rich Text)</option>
+                        <option value="text">Plain Text</option>
+                        <option value="markdown">Markdown</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="frequency">Frequency</label>
+                    <select id="frequency" name="frequency">
+                        <option value="monthly">Monthly</option>
+                        <option value="weekly">Weekly Digest</option>
+                        <option value="quarterly">Quarterly Summary</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Topics of Interest</label>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="data-science" name="categories[]" value="data-science">
+                        <label for="data-science">Data Science & Analytics</label>
+                    </div>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="patent-analysis" name="categories[]" value="patent-analysis">
+                        <label for="patent-analysis">Patent Analysis</label>
+                    </div>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="open-data" name="categories[]" value="open-data">
+                        <label for="open-data">Open Data Initiatives</label>
+                    </div>
+                </div>
+            </div>
+
+            <button type="submit">Subscribe</button>
+            <p style="font-size: 0.875rem; color: #666; text-align: center; margin-top: 1rem;">
+                You can unsubscribe at any time. View our <a href="/privacy">privacy policy</a>.
+            </p>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById('newsletter-form').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const formData = new FormData(e.target);
+            
+            try {
+                const response = await fetch('/api/subscribe', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(Object.fromEntries(formData)),
+                });
+                
+                if (response.ok) {
+                    const result = await response.json();
+                    // Show success message
+                    const success = document.createElement('div');
+                    success.className = 'success';
+                    success.textContent = 'Thanks for subscribing! Please check your email to confirm your subscription.';
+                    e.target.parentNode.insertBefore(success, e.target);
+                    e.target.reset();
+                } else {
+                    // Show error message
+                    const error = document.createElement('div');
+                    error.className = 'error';
+                    error.textContent = 'Sorry, there was a problem with your subscription. Please try again.';
+                    e.target.parentNode.insertBefore(error, e.target);
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                // Show error message
+                const errorDiv = document.createElement('div');
+                errorDiv.className = 'error';
+                errorDiv.textContent = 'There was a network error. Please try again later.';
+                e.target.parentNode.insertBefore(errorDiv, e.target);
+            }
+        });
+    </script>
+</body>
+</html>
