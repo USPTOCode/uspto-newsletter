@@ -5,7 +5,7 @@
 - `frontend/`: React frontend for newsletter display
 - `scripts/`: Utility scripts
 
-The **USPTO Newsletter** project is a tool designed to streamline the generation and formatting of newsletters for the USPTO Open Data Enthusiasts Club. This repository provides a robust pipeline for creating newsletters in multiple formats, including JSON, HTML, and plain-text email, while supporting modular integration with data sources and customizable templates.
+The **USPTO Newsletter** project is a tool designed to streamline the generation and formatting of newsletters for the USPTO Club for Open Data Enthusiasts . This repository provides a robust pipeline for creating newsletters in multiple formats, including JSON, HTML, and plain-text email, while supporting modular integration with data sources and customizable templates.
 
 ## Features
 
