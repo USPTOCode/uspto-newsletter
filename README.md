@@ -1,10 +1,6 @@
 # USPTO Newsletter Project
 
-## Structure
-- `backend/`: Python backend for newsletter generation
-- `frontend/`: React frontend for newsletter display
-- `scripts/`: Utility scripts
-
+## Description
 The **USPTO Newsletter** project is a tool designed to streamline the generation and formatting of newsletters for the USPTO Club for Open Data Enthusiasts . This repository provides a robust pipeline for creating newsletters in multiple formats, including JSON, HTML, and plain-text email, while supporting modular integration with data sources and customizable templates.
 
 ## Features
@@ -83,6 +79,11 @@ The following libraries are required and can be installed via `requirements.txt`
 To include new data sources:
 1. Extend the `generate_newsletter` function in `src/integrator/newsletter_integrator.py`.
 2. Integrate your data source, ensuring it conforms to the expected `data` dictionary structure.
+
+## Structure
+- `backend/`: Python backend for newsletter generation
+- `frontend/`: React frontend for newsletter display
+- `scripts/`: Utility scripts
 
 ## Directory Structure
 
