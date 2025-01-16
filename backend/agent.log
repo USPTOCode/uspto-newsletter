@@ -1,0 +1,106 @@
+2025-01-14 22:45:43,408 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=data+mining+OR+machine+learning+OR+open+data&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-01-14 22:45:44,432 - arxiv - INFO - Got first page: 100 of 853105 total results
+2025-01-14 22:45:44,433 - NewsletterAgent - INFO - Successfully fetched 5 papers from arXiv
+2025-01-14 22:45:45,431 - NewsletterAgent - INFO - Successfully fetched 4 blog posts
+2025-01-14 22:45:45,705 - NewsletterAgent - INFO - Successfully fetched 0 GitHub projects
+2025-01-14 22:45:45,828 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-01-14 22:45:45,830 - NewsletterAgent - ERROR - Error generating section content: Error code: 401 - {'error': {'message': "Incorrect API key provided: 'sk-proj**********************************************************************************************************************************************************JIA'. You can find your API key at https://platform.openai.com/account/api-keys.", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-01-14 22:45:45,887 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-01-14 22:45:45,887 - NewsletterAgent - ERROR - Error generating section content: Error code: 401 - {'error': {'message': "Incorrect API key provided: 'sk-proj**********************************************************************************************************************************************************JIA'. You can find your API key at https://platform.openai.com/account/api-keys.", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-01-14 22:45:45,977 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-01-14 22:45:45,977 - NewsletterAgent - ERROR - Error generating section content: Error code: 401 - {'error': {'message': "Incorrect API key provided: 'sk-proj**********************************************************************************************************************************************************JIA'. You can find your API key at https://platform.openai.com/account/api-keys.", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-01-14 22:45:45,977 - NewsletterAgent - INFO - Successfully compiled newsletter
+2025-01-14 22:45:45,977 - NewsletterIntegrator - INFO - Saved raw newsletter to C:\Development\uspto-newsletter\backend\data\generated\newsletter_raw_202501.json
+2025-01-14 22:45:45,978 - NewsletterIntegrator - INFO - Saved frontend newsletter to C:\Development\uspto-newsletter\backend\data\generated\newsletter_frontend_202501.json
+2025-01-14 22:45:45,989 - NewsletterIntegrator - ERROR - Error saving newsletter as html: No filter named 'markdown'.
+2025-01-14 22:50:00,539 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=data+mining+OR+machine+learning+OR+open+data&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-01-14 22:50:01,460 - arxiv - INFO - Got first page: 100 of 853105 total results
+2025-01-14 22:50:01,461 - NewsletterAgent - INFO - Successfully fetched 5 papers from arXiv
+2025-01-14 22:50:02,352 - NewsletterAgent - INFO - Successfully fetched 4 blog posts
+2025-01-14 22:50:02,618 - NewsletterAgent - INFO - Successfully fetched 0 GitHub projects
+2025-01-14 22:50:02,705 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-01-14 22:50:02,705 - NewsletterAgent - ERROR - Error generating section content: Error code: 401 - {'error': {'message': "Incorrect API key provided: 'sk-proj**********************************************************************************************************************************************************JIA'. You can find your API key at https://platform.openai.com/account/api-keys.", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-01-14 22:50:02,775 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-01-14 22:50:02,775 - NewsletterAgent - ERROR - Error generating section content: Error code: 401 - {'error': {'message': "Incorrect API key provided: 'sk-proj**********************************************************************************************************************************************************JIA'. You can find your API key at https://platform.openai.com/account/api-keys.", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-01-14 22:50:02,841 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-01-14 22:50:02,841 - NewsletterAgent - ERROR - Error generating section content: Error code: 401 - {'error': {'message': "Incorrect API key provided: 'sk-proj**********************************************************************************************************************************************************JIA'. You can find your API key at https://platform.openai.com/account/api-keys.", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-01-14 22:50:02,841 - NewsletterAgent - INFO - Successfully compiled newsletter
+2025-01-14 22:50:02,842 - NewsletterIntegrator - INFO - Saved raw newsletter to C:\Development\uspto-newsletter\backend\data\generated\newsletter_raw_202501.json
+2025-01-14 22:50:02,842 - NewsletterIntegrator - INFO - Saved frontend newsletter to C:\Development\uspto-newsletter\backend\data\generated\newsletter_frontend_202501.json
+2025-01-14 22:50:02,847 - NewsletterIntegrator - ERROR - Error saving newsletter as html: No filter named 'markdown'.
+2025-01-14 22:54:31,015 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=data+mining+OR+machine+learning+OR+open+data&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-01-14 22:54:31,976 - arxiv - INFO - Got first page: 100 of 853105 total results
+2025-01-14 22:54:31,977 - NewsletterAgent - INFO - Successfully fetched 5 papers from arXiv
+2025-01-14 22:54:33,194 - NewsletterAgent - INFO - Successfully fetched 4 blog posts
+2025-01-14 22:54:33,506 - NewsletterAgent - INFO - Successfully fetched 0 GitHub projects
+2025-01-14 22:54:33,640 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-01-14 22:54:33,641 - NewsletterAgent - ERROR - Error generating section content: Error code: 401 - {'error': {'message': "Incorrect API key provided: 'sk-proj**********************************************************************************************************************************************************JIA'. You can find your API key at https://platform.openai.com/account/api-keys.", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-01-14 22:54:33,694 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-01-14 22:54:33,695 - NewsletterAgent - ERROR - Error generating section content: Error code: 401 - {'error': {'message': "Incorrect API key provided: 'sk-proj**********************************************************************************************************************************************************JIA'. You can find your API key at https://platform.openai.com/account/api-keys.", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-01-14 22:54:33,813 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-01-14 22:54:33,813 - NewsletterAgent - ERROR - Error generating section content: Error code: 401 - {'error': {'message': "Incorrect API key provided: 'sk-proj**********************************************************************************************************************************************************JIA'. You can find your API key at https://platform.openai.com/account/api-keys.", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-01-14 22:54:33,813 - NewsletterAgent - INFO - Successfully compiled newsletter
+2025-01-14 22:54:33,813 - NewsletterIntegrator - INFO - Saved raw newsletter to C:\Development\uspto-newsletter\backend\data\generated\newsletter_raw_202501.json
+2025-01-14 22:54:33,814 - NewsletterIntegrator - INFO - Saved frontend newsletter to C:\Development\uspto-newsletter\backend\data\generated\newsletter_frontend_202501.json
+2025-01-14 22:54:33,817 - NewsletterIntegrator - ERROR - Error saving newsletter as html: No filter named 'markdown'.
+2025-01-14 22:56:49,885 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=data+mining+OR+machine+learning+OR+open+data&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-01-14 22:56:50,856 - arxiv - INFO - Got first page: 100 of 853105 total results
+2025-01-14 22:56:50,856 - NewsletterAgent - INFO - Successfully fetched 5 papers from arXiv
+2025-01-14 22:56:51,800 - NewsletterAgent - INFO - Successfully fetched 4 blog posts
+2025-01-14 22:56:54,109 - NewsletterAgent - INFO - Successfully fetched 0 GitHub projects
+2025-01-14 22:56:54,219 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-01-14 22:56:54,220 - NewsletterAgent - ERROR - Error generating section content: Error code: 401 - {'error': {'message': "Incorrect API key provided: 'sk-proj**********************************************************************************************************************************************************JIA'. You can find your API key at https://platform.openai.com/account/api-keys.", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-01-14 22:56:54,323 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-01-14 22:56:54,323 - NewsletterAgent - ERROR - Error generating section content: Error code: 401 - {'error': {'message': "Incorrect API key provided: 'sk-proj**********************************************************************************************************************************************************JIA'. You can find your API key at https://platform.openai.com/account/api-keys.", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-01-14 22:56:54,360 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-01-14 22:56:54,360 - NewsletterAgent - ERROR - Error generating section content: Error code: 401 - {'error': {'message': "Incorrect API key provided: 'sk-proj**********************************************************************************************************************************************************JIA'. You can find your API key at https://platform.openai.com/account/api-keys.", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-01-14 22:56:54,360 - NewsletterAgent - INFO - Successfully compiled newsletter
+2025-01-14 22:56:54,361 - NewsletterIntegrator - INFO - Saved raw newsletter to C:\Development\uspto-newsletter\backend\data\generated\newsletter_raw_202501.json
+2025-01-14 22:56:54,361 - NewsletterIntegrator - INFO - Saved frontend newsletter to C:\Development\uspto-newsletter\backend\data\generated\newsletter_frontend_202501.json
+2025-01-14 22:56:54,364 - NewsletterIntegrator - ERROR - Error saving newsletter as html: [Errno 2] No such file or directory: 'C:\\Development\\uspto-newsletter\\backend\\data\\generated\\newsletters/2025_01.html'
+2025-01-14 23:02:25,412 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=data+mining+OR+machine+learning+OR+open+data&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-01-14 23:02:26,279 - arxiv - INFO - Got first page: 100 of 853470 total results
+2025-01-14 23:02:26,279 - NewsletterAgent - INFO - Successfully fetched 5 papers from arXiv
+2025-01-14 23:02:27,124 - NewsletterAgent - INFO - Successfully fetched 4 blog posts
+2025-01-14 23:02:27,389 - NewsletterAgent - INFO - Successfully fetched 0 GitHub projects
+2025-01-14 23:02:27,482 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-01-14 23:02:27,483 - NewsletterAgent - ERROR - Error generating section content: Error code: 401 - {'error': {'message': "Incorrect API key provided: 'sk-proj**********************************************************************************************************************************************************JIA'. You can find your API key at https://platform.openai.com/account/api-keys.", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-01-14 23:02:27,599 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-01-14 23:02:27,599 - NewsletterAgent - ERROR - Error generating section content: Error code: 401 - {'error': {'message': "Incorrect API key provided: 'sk-proj**********************************************************************************************************************************************************JIA'. You can find your API key at https://platform.openai.com/account/api-keys.", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-01-14 23:02:27,724 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-01-14 23:02:27,724 - NewsletterAgent - ERROR - Error generating section content: Error code: 401 - {'error': {'message': "Incorrect API key provided: 'sk-proj**********************************************************************************************************************************************************JIA'. You can find your API key at https://platform.openai.com/account/api-keys.", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-01-14 23:02:27,725 - NewsletterAgent - INFO - Successfully compiled newsletter
+2025-01-14 23:02:27,725 - NewsletterIntegrator - INFO - Saved raw newsletter to C:\Development\uspto-newsletter\backend\data\generated\newsletter_raw_202501.json
+2025-01-14 23:02:27,725 - NewsletterIntegrator - INFO - Saved frontend newsletter to C:\Development\uspto-newsletter\backend\data\generated\newsletter_frontend_202501.json
+2025-01-14 23:02:27,729 - NewsletterIntegrator - INFO - Saved html newsletter to C:\Development\uspto-newsletter\backend\data\generated\newsletters/2025_01.html
+2025-01-14 23:02:27,729 - NewsletterIntegrator - ERROR - Error saving newsletter as markdown: Unsupported format: markdown
+2025-01-14 23:03:55,353 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=data+mining+OR+machine+learning+OR+open+data&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-01-14 23:03:56,686 - arxiv - INFO - Got first page: 100 of 853470 total results
+2025-01-14 23:03:56,687 - NewsletterAgent - INFO - Successfully fetched 5 papers from arXiv
+2025-01-14 23:03:57,634 - NewsletterAgent - INFO - Successfully fetched 4 blog posts
+2025-01-14 23:03:57,930 - NewsletterAgent - INFO - Successfully fetched 0 GitHub projects
+2025-01-14 23:03:58,111 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-01-14 23:03:58,112 - NewsletterAgent - ERROR - Error generating section content: Error code: 401 - {'error': {'message': "Incorrect API key provided: 'sk-proj**********************************************************************************************************************************************************JIA'. You can find your API key at https://platform.openai.com/account/api-keys.", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-01-14 23:03:58,219 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-01-14 23:03:58,220 - NewsletterAgent - ERROR - Error generating section content: Error code: 401 - {'error': {'message': "Incorrect API key provided: 'sk-proj**********************************************************************************************************************************************************JIA'. You can find your API key at https://platform.openai.com/account/api-keys.", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-01-14 23:03:58,274 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-01-14 23:03:58,274 - NewsletterAgent - ERROR - Error generating section content: Error code: 401 - {'error': {'message': "Incorrect API key provided: 'sk-proj**********************************************************************************************************************************************************JIA'. You can find your API key at https://platform.openai.com/account/api-keys.", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-01-14 23:03:58,275 - NewsletterAgent - INFO - Successfully compiled newsletter
+2025-01-14 23:03:58,275 - NewsletterIntegrator - INFO - Saved raw newsletter to C:\Development\uspto-newsletter\backend\data\generated\newsletter_raw_202501.json
+2025-01-14 23:03:58,275 - NewsletterIntegrator - INFO - Saved frontend newsletter to C:\Development\uspto-newsletter\backend\data\generated\newsletter_frontend_202501.json
+2025-01-14 23:03:58,279 - NewsletterIntegrator - INFO - Saved html newsletter to C:\Development\uspto-newsletter\backend\data\generated\newsletters/2025_01.html
+2025-01-15 11:18:37,682 - NewsletterFormatter - ERROR - Error formatting HTML: 'dict' object has no attribute 'strip'
+2025-01-15 11:18:37,682 - NewsletterIntegrator - ERROR - Error saving newsletter as html: 'dict' object has no attribute 'strip'
+2025-01-15 11:19:59,233 - NewsletterIntegrator - INFO - Saved html newsletter to C:\Development\uspto-newsletter\backend\data\generated\test_newsletter.html
+2025-01-15 11:34:23,908 - NewsletterFormatter - ERROR - Error in markdown conversion: 'css_class'
+2025-01-15 11:34:23,908 - NewsletterFormatter - ERROR - Error in markdown conversion: 'css_class'
+2025-01-15 11:34:23,908 - NewsletterFormatter - ERROR - Error in markdown conversion: 'css_class'
+2025-01-15 11:34:23,908 - NewsletterIntegrator - INFO - Saved html newsletter to C:\Development\uspto-newsletter\backend\data\generated\test_newsletter.html
+2025-01-15 11:37:50,526 - NewsletterIntegrator - ERROR - Error saving newsletter as html: name 'logging' is not defined
+2025-01-15 11:40:34,494 - NewsletterIntegrator - INFO - Saved html newsletter to C:\Development\uspto-newsletter\backend\data\generated\test_newsletter.html
+2025-01-15 11:45:08,875 - NewsletterIntegrator - INFO - Saved html newsletter to C:\Development\uspto-newsletter\backend\data\generated\test_newsletter.html
+2025-01-15 14:41:45,934 - NewsletterIntegrator - INFO - Saved html newsletter to C:\Development\uspto-newsletter\backend\data\generated\test_newsletter.html
+2025-01-15 23:56:51,638 - NewsletterIntegrator - INFO - Saved html newsletter to C:\Development\uspto-newsletter\backend\data\generated\test_newsletter.html
+2025-01-15 23:59:47,486 - NewsletterIntegrator - INFO - Saved html newsletter to C:\Development\uspto-newsletter\backend\data\generated\test_newsletter.html
+2025-01-16 00:20:58,553 - NewsletterIntegrator - ERROR - Error saving newsletter as html: NewsletterFormatter.format_newsletter() takes 3 positional arguments but 4 were given
+2025-01-16 00:22:35,313 - NewsletterIntegrator - ERROR - Error saving newsletter as html: NewsletterFormatter.format_newsletter() takes 3 positional arguments but 4 were given
