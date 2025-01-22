@@ -30,8 +30,7 @@ class NewsletterIntegrator:
     async def generate_newsletter(self) -> Dict:
         """Generate a new newsletter."""
         try:
-            # In a real implementation, this would create the newsletter content
-            # For now, return sample data
+            # For now, return sample data with all required sections
             return {
                 'metadata': {
                     'month': datetime.now().strftime('%B %Y'),
@@ -45,7 +44,15 @@ class NewsletterIntegrator:
                 'sections': {
                     'emerging_trends': {
                         'title': 'Emerging Trends',
-                        'content': '# Sample content'
+                        'content': '# Sample Emerging Trends Content\n\nThis is sample content for emerging trends.'
+                    },
+                    'tools_and_projects': {
+                        'title': 'Tools and Projects',
+                        'content': '# Sample Tools Content\n\nThis is sample content for tools and projects.'
+                    },
+                    'learning_resources': {
+                        'title': 'Learning Resources',
+                        'content': '# Sample Learning Content\n\nThis is sample content for learning resources.'
                     }
                 }
             }

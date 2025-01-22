@@ -104,3 +104,110 @@
 2025-01-15 23:59:47,486 - NewsletterIntegrator - INFO - Saved html newsletter to C:\Development\uspto-newsletter\backend\data\generated\test_newsletter.html
 2025-01-16 00:20:58,553 - NewsletterIntegrator - ERROR - Error saving newsletter as html: NewsletterFormatter.format_newsletter() takes 3 positional arguments but 4 were given
 2025-01-16 00:22:35,313 - NewsletterIntegrator - ERROR - Error saving newsletter as html: NewsletterFormatter.format_newsletter() takes 3 positional arguments but 4 were given
+2025-01-16 12:25:33,405 - NewsletterFormatter - ERROR - Error formatting HTML: 'tools_and_projects'
+2025-01-16 12:25:33,405 - NewsletterIntegrator - ERROR - Error saving newsletter as html: 'tools_and_projects'
+2025-01-16 12:26:36,896 - NewsletterIntegrator - INFO - Saved html newsletter to C:\Development\uspto-newsletter\backend\data\generated\newsletters/2025_01.html
+2025-01-16 12:26:36,897 - NewsletterIntegrator - INFO - Saved markdown newsletter to C:\Development\uspto-newsletter\backend\data\generated\newsletters/2025_01.md
+2025-01-16 12:34:20,955 - NewsletterIntegrator - INFO - Saved html newsletter to C:\Development\uspto-newsletter\backend\data\generated\newsletters/2025_01.html
+2025-01-16 12:34:20,955 - NewsletterIntegrator - INFO - Saved markdown newsletter to C:\Development\uspto-newsletter\backend\data\generated\newsletters/2025_01.md
+2025-01-16 12:40:05,383 - NewsletterIntegrator - INFO - Saved html newsletter to C:\Development\uspto-newsletter\backend\data\generated\newsletters/2025_01.html
+2025-01-16 12:40:05,383 - NewsletterIntegrator - INFO - Saved markdown newsletter to C:\Development\uspto-newsletter\backend\data\generated\newsletters/2025_01.md
+2025-01-16 12:43:22,445 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%28data+mining+OR+machine+learning+OR+open+data%29+AND+%28patent+OR+intellectual+property%29&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-01-16 12:43:23,278 - arxiv - INFO - Got first page: 100 of 97652 total results
+2025-01-16 12:43:23,279 - NewsletterAgent - INFO - Successfully fetched 5 papers from arXiv
+2025-01-16 12:43:23,419 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-01-16 12:43:23,420 - NewsletterAgent - ERROR - Error generating trends section: Error code: 401 - {'error': {'message': "Incorrect API key provided: 'sk-proj**********************************************************************************************************************************************************JIA'. You can find your API key at https://platform.openai.com/account/api-keys.", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-01-16 12:43:23,437 - NewsletterIntegrator - INFO - Saved html newsletter to C:\Development\uspto-newsletter\backend\data\generated\newsletters/2025_01.html
+2025-01-16 12:43:23,438 - NewsletterIntegrator - INFO - Saved markdown newsletter to C:\Development\uspto-newsletter\backend\data\generated\newsletters/2025_01.md
+2025-01-16 17:34:10,471 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%28data+mining+OR+machine+learning+OR+open+data%29+AND+%28patent+OR+intellectual+property%29&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-01-16 17:34:11,397 - arxiv - INFO - Got first page: 100 of 97652 total results
+2025-01-16 17:34:11,398 - NewsletterAgent - INFO - Successfully fetched 5 papers from arXiv
+2025-01-16 17:34:11,603 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-01-16 17:34:11,604 - NewsletterAgent - ERROR - Error generating trends section: Error code: 401 - {'error': {'message': "Incorrect API key provided: 'sk-proj**********************************************************************************************************************************************************JIA'. You can find your API key at https://platform.openai.com/account/api-keys.", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-01-16 17:34:11,636 - NewsletterIntegrator - INFO - Saved html newsletter to C:\Development\uspto-newsletter\backend\data\generated\newsletters/2025_01.html
+2025-01-16 17:34:11,636 - NewsletterIntegrator - INFO - Saved markdown newsletter to C:\Development\uspto-newsletter\backend\data\generated\newsletters/2025_01.md
+2025-01-16 17:42:44,087 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%28data+mining+OR+machine+learning+OR+open+data%29+AND+%28patent+OR+intellectual+property%29&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-01-16 17:42:45,411 - arxiv - INFO - Got first page: 6 of 97652 total results
+2025-01-16 17:42:45,413 - NewsletterAgent - INFO - Successfully fetched 5 papers from arXiv
+2025-01-16 17:42:45,526 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-01-16 17:42:45,527 - NewsletterAgent - ERROR - Error generating trends section: Error code: 401 - {'error': {'message': "Incorrect API key provided: 'sk-proj**********************************************************************************************************************************************************JIA'. You can find your API key at https://platform.openai.com/account/api-keys.", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-01-16 17:42:45,542 - NewsletterIntegrator - INFO - Saved html newsletter to C:\Development\uspto-newsletter\backend\data\generated\newsletters/2025_01.html
+2025-01-16 17:42:45,542 - NewsletterIntegrator - INFO - Saved markdown newsletter to C:\Development\uspto-newsletter\backend\data\generated\newsletters/2025_01.md
+2025-01-16 17:45:16,142 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%28data+mining+OR+machine+learning+OR+open+data%29+AND+%28patent+OR+intellectual+property%29&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-01-16 17:45:17,147 - arxiv - INFO - Got first page: 100 of 97652 total results
+2025-01-16 17:45:17,149 - NewsletterAgent - INFO - Successfully fetched 5 papers from arXiv
+2025-01-16 17:45:17,253 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-01-16 17:45:17,255 - NewsletterAgent - ERROR - Error generating trends section: Error code: 401 - {'error': {'message': "Incorrect API key provided: 'sk-proj**********************************************************************************************************************************************************JIA'. You can find your API key at https://platform.openai.com/account/api-keys.", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-01-16 17:45:17,269 - NewsletterIntegrator - INFO - Saved html newsletter to C:\Development\uspto-newsletter\backend\data\generated\newsletters/2025_01.html
+2025-01-16 17:45:17,270 - NewsletterIntegrator - INFO - Saved markdown newsletter to C:\Development\uspto-newsletter\backend\data\generated\newsletters/2025_01.md
+2025-01-16 17:48:54,730 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%28data+mining+OR+machine+learning+OR+open+data%29+AND+%28patent+OR+intellectual+property%29&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-01-16 17:48:55,568 - arxiv - INFO - Got first page: 100 of 97652 total results
+2025-01-16 17:48:55,569 - NewsletterAgent - INFO - Successfully fetched 5 papers from arXiv
+2025-01-16 17:48:55,745 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-01-16 17:48:55,746 - NewsletterAgent - ERROR - Error generating trends section: Error code: 401 - {'error': {'message': "Incorrect API key provided: 'sk-proj**********************************************************************************************************************************************************JIA'. You can find your API key at https://platform.openai.com/account/api-keys.", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-01-16 17:48:55,761 - NewsletterIntegrator - INFO - Saved html newsletter to C:\Development\uspto-newsletter\backend\data\generated\newsletters/2025_01.html
+2025-01-16 17:48:55,761 - NewsletterIntegrator - INFO - Saved markdown newsletter to C:\Development\uspto-newsletter\backend\data\generated\newsletters/2025_01.md
+2025-01-16 17:52:03,295 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%28data+mining+OR+machine+learning+OR+open+data%29+AND+%28patent+OR+intellectual+property%29&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-01-16 17:52:04,599 - arxiv - INFO - Got first page: 100 of 97652 total results
+2025-01-16 17:52:04,600 - NewsletterAgent - INFO - Successfully fetched 5 papers from arXiv
+2025-01-16 17:52:04,733 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-01-16 17:52:04,735 - NewsletterAgent - ERROR - Error generating trends section: Error code: 401 - {'error': {'message': "Incorrect API key provided: 'sk-proj**********************************************************************************************************************************************************JIA'. You can find your API key at https://platform.openai.com/account/api-keys.", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-01-16 17:52:04,749 - NewsletterIntegrator - INFO - Saved html newsletter to C:\Development\uspto-newsletter\backend\data\generated\newsletters/2025_01.html
+2025-01-16 17:52:04,750 - NewsletterIntegrator - INFO - Saved markdown newsletter to C:\Development\uspto-newsletter\backend\data\generated\newsletters/2025_01.md
+2025-01-16 17:54:52,898 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%28data+mining+OR+machine+learning+OR+open+data%29+AND+%28patent+OR+intellectual+property%29&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-01-16 17:54:54,040 - arxiv - INFO - Got first page: 6 of 97652 total results
+2025-01-16 17:54:54,041 - NewsletterAgent - INFO - Successfully fetched 5 papers from arXiv
+2025-01-16 17:54:54,203 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-01-16 17:54:54,204 - NewsletterAgent - ERROR - Error generating trends section: Error code: 401 - {'error': {'message': "Incorrect API key provided: 'sk-proj**********************************************************************************************************************************************************JIA'. You can find your API key at https://platform.openai.com/account/api-keys.", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-01-16 17:54:54,219 - NewsletterIntegrator - INFO - Saved html newsletter to C:\Development\uspto-newsletter\backend\data\generated\newsletters/2025_01.html
+2025-01-16 17:54:54,219 - NewsletterIntegrator - INFO - Saved markdown newsletter to C:\Development\uspto-newsletter\backend\data\generated\newsletters/2025_01.md
+2025-01-16 17:56:01,765 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%28data+mining+OR+machine+learning+OR+open+data%29+AND+%28patent+OR+intellectual+property%29&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-01-16 17:56:03,156 - arxiv - INFO - Got first page: 100 of 97652 total results
+2025-01-16 17:56:03,157 - NewsletterAgent - INFO - Successfully fetched 5 papers from arXiv
+2025-01-16 17:56:31,640 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-16 17:56:31,648 - NewsletterAgent - INFO - Successfully generated emerging trends section
+2025-01-16 17:56:31,666 - NewsletterIntegrator - INFO - Saved html newsletter to C:\Development\uspto-newsletter\backend\data\generated\newsletters/2025_01.html
+2025-01-16 17:56:31,666 - NewsletterIntegrator - INFO - Saved markdown newsletter to C:\Development\uspto-newsletter\backend\data\generated\newsletters/2025_01.md
+2025-01-17 21:28:46,918 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%0A++++++++++++++++++++%28%0A++++++++++++++++++++++++%22machine+learning%22+OR+%22deep+learning%22+OR+%22artificial+intelligence%22+OR%0A++++++++++++++++++++++++%22natural+language+processing%22+OR+%22computer+vision%22+OR+%22data+mining%22%0A++++++++++++++++++++%29%0A++++++++++++++++++++AND%0A++++++++++++++++++++%28%0A++++++++++++++++++++++++%22patent+classification%22+OR+%22patent+analysis%22+OR+%22prior+art%22+OR%0A++++++++++++++++++++++++%22intellectual+property%22+OR+%22patent+search%22+OR+%22USPTO%22%0A++++++++++++++++++++%29%0A++++++++++++++++++++AND%0A++++++++++++++++++++%28submittedDate%3A%5B2023+TO+2025%5D%29%0A++++++++++++++++&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-01-17 21:28:47,224 - arxiv - INFO - Got empty first page; stopping generation
+2025-01-17 21:28:47,224 - NewsletterAgent - INFO - Successfully fetched 0 papers from arXiv
+2025-01-17 21:28:47,238 - NewsletterIntegrator - INFO - Saved html newsletter to C:\Development\uspto-newsletter\backend\data\generated\newsletters/2025_01.html
+2025-01-17 21:28:47,238 - NewsletterIntegrator - INFO - Saved markdown newsletter to C:\Development\uspto-newsletter\backend\data\generated\newsletters/2025_01.md
+2025-01-17 21:32:17,370 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%0A++++++++++++++++++++%28%0A++++++++++++++++++++++++%22machine+learning%22+OR+%22deep+learning%22+OR+%22artificial+intelligence%22+OR%0A++++++++++++++++++++++++%22natural+language+processing%22+OR+%22computer+vision%22+OR+%22data+mining%22%0A++++++++++++++++++++%29%0A++++++++++++++++++++AND%0A++++++++++++++++++++%28%0A++++++++++++++++++++++++%22patent+classification%22+OR+%22patent+analysis%22+OR+%22prior+art%22+OR%0A++++++++++++++++++++++++%22intellectual+property%22+OR+%22patent+search%22+OR+%22USPTO%22%0A++++++++++++++++++++%29%0A++++++++++++++++++++AND%0A++++++++++++++++++++%28submittedDate%3A%5B2023+TO+2025%5D%29%0A++++++++++++++++&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-01-17 21:32:17,628 - arxiv - INFO - Got empty first page; stopping generation
+2025-01-17 21:32:17,628 - NewsletterAgent - INFO - Successfully fetched 0 papers from arXiv
+2025-01-17 21:32:17,642 - NewsletterIntegrator - INFO - Saved html newsletter to C:\Development\uspto-newsletter\backend\data\generated\newsletters/2025_01.html
+2025-01-17 21:32:17,642 - NewsletterIntegrator - INFO - Saved markdown newsletter to C:\Development\uspto-newsletter\backend\data\generated\newsletters/2025_01.md
+2025-01-17 21:33:04,214 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=patent+AND+machine+learning&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-01-17 21:33:05,171 - arxiv - INFO - Got first page: 100 of 170 total results
+2025-01-17 21:33:05,173 - NewsletterAgent - INFO - Successfully fetched 5 papers from arXiv
+2025-01-17 21:33:31,679 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-17 21:33:31,696 - NewsletterAgent - INFO - Successfully generated emerging trends section
+2025-01-17 21:33:31,715 - NewsletterIntegrator - INFO - Saved html newsletter to C:\Development\uspto-newsletter\backend\data\generated\newsletters/2025_01.html
+2025-01-17 21:33:31,716 - NewsletterIntegrator - INFO - Saved markdown newsletter to C:\Development\uspto-newsletter\backend\data\generated\newsletters/2025_01.md
+2025-01-17 21:43:11,520 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%0A++++++++++++++++++++++++%22open+data%22+OR+%22open+source+data%22+OR+%22public+data%22+OR+%22data+sharing%22+OR%0A++++++++++++++++++++++++%22open+science%22+OR+%22open+access+data%22+OR+%22open+government+data%22+OR%0A++++++++++++++++++++++++%22linked+open+data%22+OR+%22open+research+data%22%0A++++++++++++++++++++++++&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-01-17 21:43:11,811 - arxiv - INFO - Got empty first page; stopping generation
+2025-01-17 21:43:11,811 - NewsletterAgent - INFO - Successfully fetched 0 papers from arXiv
+2025-01-17 21:43:11,825 - NewsletterIntegrator - INFO - Saved html newsletter to C:\Development\uspto-newsletter\backend\data\generated\newsletters/2025_01.html
+2025-01-17 21:43:11,825 - NewsletterIntegrator - INFO - Saved markdown newsletter to C:\Development\uspto-newsletter\backend\data\generated\newsletters/2025_01.md
+2025-01-17 21:43:43,881 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=open+data&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-01-17 21:43:44,609 - arxiv - INFO - Got first page: 100 of 660864 total results
+2025-01-17 21:43:44,610 - NewsletterAgent - INFO - Successfully fetched 5 papers from arXiv
+2025-01-17 21:44:03,021 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-17 21:44:03,024 - NewsletterAgent - INFO - Successfully generated emerging trends section
+2025-01-17 21:44:03,042 - NewsletterIntegrator - INFO - Saved html newsletter to C:\Development\uspto-newsletter\backend\data\generated\newsletters/2025_01.html
+2025-01-17 21:44:03,042 - NewsletterIntegrator - INFO - Saved markdown newsletter to C:\Development\uspto-newsletter\backend\data\generated\newsletters/2025_01.md
+2025-01-17 21:52:30,453 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=patent+AND+machine+learning&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-01-17 21:52:31,387 - arxiv - INFO - Got first page: 100 of 170 total results
+2025-01-17 21:52:31,388 - NewsletterAgent - INFO - Successfully fetched 5 papers from arXiv
+2025-01-17 21:53:01,966 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-17 21:53:01,974 - NewsletterAgent - INFO - Successfully generated emerging trends section
+2025-01-17 21:53:01,990 - NewsletterIntegrator - INFO - Saved html newsletter to C:\Development\uspto-newsletter\backend\data\generated\newsletters/2025_01.html
+2025-01-17 21:53:01,991 - NewsletterIntegrator - INFO - Saved markdown newsletter to C:\Development\uspto-newsletter\backend\data\generated\newsletters/2025_01.md
+2025-01-17 21:58:10,339 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=patent+AND+machine+learning&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-01-17 21:58:11,386 - arxiv - INFO - Got first page: 100 of 170 total results
+2025-01-17 21:58:11,388 - NewsletterAgent - INFO - Successfully fetched 5 papers from arXiv
+2025-01-17 21:59:18,374 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-17 21:59:18,379 - NewsletterAgent - INFO - Successfully generated emerging trends section
+2025-01-17 21:59:18,397 - NewsletterIntegrator - INFO - Saved html newsletter to C:\Development\uspto-newsletter\backend\data\generated\newsletters/2025_01.html
+2025-01-17 21:59:18,397 - NewsletterIntegrator - INFO - Saved markdown newsletter to C:\Development\uspto-newsletter\backend\data\generated\newsletters/2025_01.md

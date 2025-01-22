@@ -1,3 +1,6 @@
+ ### Test script for newsletter generation using mock data
+
+
 import asyncio
 import os
 from datetime import datetime
