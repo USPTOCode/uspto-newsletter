@@ -1,6 +1,6 @@
 # CODE @USPTO Newsletter Project
 
-The C.O.D.E. newsletter Project is designed to assist in creation and distribution of the newsletters for the Club for Open Data Enthusiasts (C.O.D.E.). This system integrates a Python-based backend for content generation and a React-based frontend for user interaction, ensuring an efficient workflow for newsletter management.
+The C.O.D.E. newsletter Project is designed to assist in creation and distribution of the newsletters for the Club for Open Data Enthusiasts (C.O.D.E.). This system integrates a Python-based backend for content generation and a React-based frontend for user interaction, ensuring an efficient workflow for newsletter management. It is not an official USPTO Project.
 
 ## Table of Contents
 
@@ -103,6 +103,3 @@ Please ensure your code adheres to the project's coding standards and includes a
 
 This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute this software in accordance with the license terms.
 
----
-
-For more information about the USPTO and its initiatives, visit the [official USPTO website](https://www.uspto.gov/).
