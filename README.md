@@ -1,6 +1,6 @@
-# USPTO Newsletter Project
+# CODE @USPTO Newsletter Project
 
-The USPTO Newsletter Project is designed to streamline the creation and distribution of newsletters for the United States Patent and Trademark Office (USPTO). This system integrates a Python-based backend for content generation and a React-based frontend for user interaction, ensuring an efficient workflow for newsletter management.
+The C.O.D.E. newsletter Project is designed to assist in creation and distribution of the newsletters for the Club for Open Data Enthusiasts (C.O.D.E.). This system integrates a Python-based backend for content generation and a React-based frontend for user interaction, ensuring an efficient workflow for newsletter management.
 
 ## Table of Contents
 
