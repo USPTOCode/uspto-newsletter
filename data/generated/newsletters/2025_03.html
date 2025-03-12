@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>March 2025 Newsletter - Club for Open Data Enthusiasts</title>
+    <style>
+        /* Theme Variables */
+        html[data-theme="light"] {
+            --bg-primary: #FFFFFF;
+            --bg-secondary: #F7F9FC;
+            --bg-highlight: #ECF4FF;
+            --text-primary: #1B1B1B;
+            --text-secondary: #454545;
+            --accent-primary: #0076D6;
+            --accent-secondary: #205493;
+            --border-color: #DFE1E6;
+        }
+
+        html[data-theme="dark"] {
+            --bg-primary: #18181B;
+            --bg-secondary: #27272A;
+            --bg-highlight: #1F2937;
+            --text-primary: #E4E4E7;
+            --text-secondary: #A1A1AA;
+            --accent-primary: #60A5FA;
+            --accent-secondary: #93C5FD;
+            --border-color: #3F3F46;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            color: var(--text-primary);
+            background-color: var(--bg-primary);
+        }
+
+        /* Header and branding */
+        .newsletter-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        
+        .newsletter-title {
+            font-size: 2.2rem;
+            color: var(--accent-secondary);
+            margin-bottom: 0.5rem;
+        }
+        
+        .newsletter-subtitle {
+            font-size: 1.2rem;
+            color: var(--text-secondary);
+            font-weight: normal;
+        }
+        
+        /* Section styling */
+        .section {
+            background: var(--bg-secondary);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 2rem 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+        
+        .section-header {
+            font-size: 1.6rem;
+            color: var(--accent-primary);
+            margin-bottom: 1.2rem;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 0.5rem;
+        }
+        
+        /* Content styling */
+        h2 {
+            color: var(--accent-secondary);
+            font-size: 1.4rem;
+            margin-top: 1.5rem;
+        }
+        
+        h3 {
+            color: var(--text-secondary);
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+        
+        p {
+            margin: 1rem 0;
+        }
+        
+        a {
+            color: var(--accent-primary);
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        ul, ol {
+            padding-left: 1.5rem;
+        }
+        
+        li {
+            margin: 0.5rem 0;
+        }
+        
+        blockquote {
+            background: var(--bg-highlight);
+            border-left: 4px solid var(--accent-primary);
+            margin: 1.5rem 0;
+            padding: 1rem;
+            border-radius: 0 8px 8px 0;
+            font-style: italic;
+        }
+        
+        /* Highlight boxes */
+        .highlight-box {
+            background: var(--bg-highlight);
+            border-radius: 8px;
+            padding: 1rem;
+            margin: 1.5rem 0;
+            border: 1px solid var(--border-color);
+        }
+        
+        .highlight-box h4 {
+            margin-top: 0;
+            color: var(--accent-secondary);
+        }
+        
+        /* Footer styling */
+        .footer {
+            text-align: center;
+            margin-top: 3rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--border-color);
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+        
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            body {
+                padding: 1rem;
+            }
+            
+            .newsletter-title {
+                font-size: 1.8rem;
+            }
+        }
+        
+        /* Theme toggle button */
+        #theme-toggle {
+            position: fixed;
+            top: 1rem;
+            right: 1rem;
+            padding: 0.5rem;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 50%;
+            cursor: pointer;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        /* Separator styling */
+        hr {
+            border: 0;
+            height: 1px;
+            background: var(--border-color);
+            margin: 1.5rem 0;
+        }
+    </style>
+</head>
+<body>
+    <button id="theme-toggle" aria-label="Toggle dark/light mode">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+    </button>
+
+    <div class="newsletter-header">
+        <h1 class="newsletter-title">March 2025 Data Explorer</h1>
+        <h2 class="newsletter-subtitle">Club for Open Data Enthusiasts</h2>
+    </div>
+    
+    <div class="section">
+        <div class="section-header">Data Stories & Trends</div>
+        
+<h1>Featured Data Stories</h1>
+
+<h2>Making Sense of Patent Documents with AI</h2>
+
+<p>Have you ever tried to read a patent? They're often filled with technical jargon and complex diagrams that can be difficult to understand. Researchers are now using machine learning to make these documents more accessible.</p>
+
+<p>By applying natural language processing and computer vision techniques, AI systems can now classify patents, extract key information, and even predict how long a patent might remain valuable. This is especially helpful for researchers, inventors, and companies who need to navigate the vast landscape of intellectual property.</p>
+
+<p><strong>Why This Matters:</strong> Better patent analysis tools mean more innovation can build on existing ideas, potentially accelerating technological progress in areas like healthcare, climate solutions, and more.</p>
+
+<h2>Open Data in Patent Analysis</h2>
+
+<p>The open data movement is making waves in patent research. Several projects in our GitHub section this month focus on creating openly available tools that analyze patent documents, classify them automatically, and extract useful insights.</p>
+
+<p>These open source approaches are democratizing access to patent information that was previously only available through expensive proprietary platforms. Now, smaller organizations and individual inventors can gain insights that were once only accessible to large corporations.</p>
+
+<p><strong>Why This Matters:</strong> When patent data becomes more accessible, innovation becomes more inclusive, potentially leading to more diverse and creative solutions to our biggest challenges.</p>
+
+    </div>
+    
+    
+    
+    <div class="section">
+        <div class="section-header">Cool Tools & Projects</div>
+        
+<h2>Cool Tools &amp; Projects You Might Want to Try</h2>
+<ul>
+
+</ul>
+<blockquote>
+<p><strong>Have you tried any of these tools?</strong> Share your experience at our next meetup!</p>
+</blockquote>
+
+    </div>
+    
+    <div class="section">
+        <div class="section-header">Learn Something New</div>
+        
+<h2>Learn Something New Today</h2>
+<p><em>Looking to expand your data skills? Here are some resources our members are finding valuable:</em></p>
+<ul>
+<li><p><strong><a href="http://arxiv.org/abs/cs/9905014v1">Hierarchical Reinforcement Learning with the MAXQ Value Function
+  Decomposition</a></strong><br />
+  Latest AI/ML research paper on arXiv.<br />
+<em>Intermediate · Approx. 2-3 hours</em></p></li>
+<li><p><strong><a href="http://arxiv.org/abs/cs/9905015v1">State Abstraction in MAXQ Hierarchical Reinforcement Learning</a></strong><br />
+  Latest AI/ML research paper on arXiv.<br />
+<em>Intermediate · Approx. 2-3 hours</em></p></li>
+<li><p><strong><a href="http://arxiv.org/abs/cs/0001004v1">Multiplicative Algorithm for Orthgonal Groups and Independent Component
+  Analysis</a></strong><br />
+  Latest AI/ML research paper on arXiv.<br />
+<em>Intermediate · Approx. 2-3 hours</em></p></li>
+
+</ul>
+<blockquote>
+<p><strong>Know a great resource?</strong> Email us your suggestions for next month's newsletter!</p>
+</blockquote>
+
+    </div>
+    
+    <div class="section">
+        <div class="section-header">Quick Reads for Data Enthusiasts</div>
+        <h2>Quick Reads for Data Enthusiasts</h2>
+<p><em>Stay up-to-date with these thought-provoking articles:</em></p>
+<ul>
+<li><strong><a href="https://www.r-bloggers.com/2025/03/effective-data-visualization-in-r-in-scientific-contexts-workshop/">Effective Data Visualization in R in Scientific Contexts workshop</a></strong><br>
+<p><p>Join our workshop on Effective Data Visualization in R in Scientific Contexts, which is a part of our workshops fo...</p>
+<p><em>📚 1-minute read · From R-bloggers</em></p>
+<hr>
+</li>
+<li><strong><a href="https://opensource.microsoft.com/blog/2025/02/11/hyperlight-creating-a-0-0009-second-micro-vm-execution-time/">Hyperlight: Achieving 0.0009-second micro-VM execution time</a></strong><br>
+<p><p>In this post, we’ll take the demo application and show how it demonstrates one way you can use Hyperlight in your ...</p>
+<p><em>📚 1-minute read · From Microsoft Open Source Blog</em></p>
+<hr>
+</li>
+<li><strong><a href="https://opensource.microsoft.com/blog/2025/01/23/documentdb-open-source-announcement/">DocumentDB: Open-Source Announcement</a></strong><br>
+<p><p>We are excited to announce the official release of DocumentDB—an open-source document database platform and the en...</p>
+<p><em>📚 1-minute read · From Microsoft Open Source Blog</em></p>
+<hr>
+</li>
+<li><strong><a href="https://aws.amazon.com/blogs/opensource/introducing-qontos-prometheus-rds-exporter-an-open-source-solution-to-enhance-monitoring-amazon-rds/">Introducing Qonto’s Prometheus RDS Exporter – An Open Source Solution to Enhance Monitoring Amazon RDS</a></strong><br>
+<p>Databases are a critical part of most applications and essential to business continuity. To ensure performance, avail...</p>
+<p><em>📚 1-minute read · From AWS Open Source Blog</em></p>
+<hr>
+</li>
+<li><strong><a href="https://opensource.org/blog/metas-llama-license-is-still-not-open-source">Meta’s LLaMa license is still not Open Source</a></strong><br>
+<p>At a time when Meta is trying to redefine Open Source for their own benefit and at the expense of our freedom, we cal...</p>
+<p><em>📚 1-minute read · From Blog – Open Source Initiative</em></p>
+</li>
+</ul>
+    </div>
+    
+    
+    <div class="section">
+        <div class="section-header">From Around the Web</div>
+        <h2>From Around the Web</h2>
+<p><em>Stay updated with the latest content from data experts:</em></p>
+<h3>Latest Videos</h3>
+<ul>
+<li><strong><a href="https://www.youtube.com/watch?v=I-4GShiD1yY">Different bugs. Different reactions.</a></strong><br>
+<p>Perspective is everything. How do you handle bugs? 🐛
+
+Subscribe to Google for Developers → https://goo.gle/developers</p>
+<p><em>From YouTube - Google for Developers</em></p></li>
+<li><strong><a href="https://www.youtube.com/watch?v=zmg41WdIz30">What separates a junior engineer from a senior engineer?</a></strong><br>
+<p>Ever wonder what really sets senior engineers apart? It's not just about individual coding prowess. Google Engineer Ethan Hsu shares a key habit: proactively identifying and solving problems for the entire team. Level up your impact by thinking beyond your own projects and focusing on team-wide bottlenecks. 
+
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+Speaker: Ethan Hsu</p>
+<p><em>From YouTube - Google for Developers</em></p></li>
+<li><strong><a href="https://www.youtube.com/watch?v=r5MNicB-R0E">“Im just a lil guy” 🐕</a></strong><br>
+<p>His git push is a mess, but you can't stay mad at this lil guy. 
+
+Subscribe to Google for Developers → https://goo.gle/developers</p>
+<p><em>From YouTube - Google for Developers</em></p></li>
+</ul>
+<h3>Twitter/X Highlights</h3>
+<ul>
+<li><strong><a href="https://twitter.com/kaggle">Tweet from kaggle</a></strong><br>
+<p>Announcing our latest competition: Predicting renewable energy output based on weather patterns. $50,000 in prizes!</p>
+<p><em>From Twitter/X - kaggle</em></p></li>
+<li><strong><a href="https://twitter.com/kaggle">Tweet from kaggle</a></strong><br>
+<p>New dataset available: Global Climate Data 2010-2025. Perfect for time series analysis and forecasting projects.</p>
+<p><em>From Twitter/X - kaggle</em></p></li>
+<li><strong><a href="https://twitter.com/DataScienceCtrl">Tweet from DataScienceCtrl</a></strong><br>
+<p>10 Python libraries for data visualization you probably haven't heard of. Number 7 will surprise you! https://example.com/viz-libs</p>
+<p><em>From Twitter/X - DataScienceCtrl</em></p></li>
+</ul>
+<h3>Data Science Blogs</h3>
+<ul>
+<li><strong><a href="https://www.r-bloggers.com/2025/03/effective-data-visualization-in-r-in-scientific-contexts-workshop/">Effective Data Visualization in R in Scientific Contexts workshop</a></strong><br>
+<p>Join our workshop on Effective Data Visualization in R in Scientific Contexts, which is a part of our workshops for Ukraine series!  Here’s some mo...</p>
+<p><em>From R-bloggers</em></p></li>
+</ul>
+
+    </div>
+    
+    
+    <div class="highlight-box">
+        <h4>Share Your Data Stories!</h4>
+        <p>Have you used data in an interesting way recently? We'd love to feature your story in our next newsletter!</p>
+        <p>Drop us an email at <a href="mailto:newsletter@club.org">newsletter@club.org</a> with your project details.</p>
+    </div>
+    
+    <div class="footer">
+        <p>Generated: 2025-03-11T01:26:00.153067</p>
+        <p>USPTO <a href="https://github.com/USPTOCode/" title="Club for Open Data Enthusiasts">C.O.D.E.</a></p>
+        <p>
+            Content sourced from 5 research papers, 
+            5 blog posts, 
+            0 GitHub projects
+            , 13 social media posts
+            
+        </p>
+    </div>
+
+    <script>
+        // Theme toggle functionality
+        const themeToggle = document.getElementById('theme-toggle');
+        const html = document.documentElement;
+        
+        // Check for saved theme preference or system preference
+        const savedTheme = localStorage.getItem('theme');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        
+        if (savedTheme) {
+            html.setAttribute('data-theme', savedTheme);
+        } else if (prefersDark) {
+            html.setAttribute('data-theme', 'dark');
+        }
+        
+        themeToggle.addEventListener('click', () => {
+            const currentTheme = html.getAttribute('data-theme');
+            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+            
+            html.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,130 @@
+2025-03-10 15:44:56,743 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=patent+AND+machine+learning&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-03-10 15:44:57,854 - arxiv - INFO - Got first page: 100 of 175 total results
+2025-03-10 15:44:57,855 - NewsletterAgent - INFO - Successfully fetched 5 papers from arXiv
+2025-03-10 15:46:17,802 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-10 15:46:17,813 - NewsletterAgent - INFO - Successfully generated emerging trends section
+2025-03-10 15:46:17,834 - NewsletterIntegrator - ERROR - Error saving newsletter as html: [Errno 2] No such file or directory: 'C:\\Development\\uspto-newsletter\\data\\generated\\newsletters/2025_03.html'
+2025-03-10 16:01:56,430 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=patent+AND+machine+learning&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-03-10 16:01:57,523 - arxiv - INFO - Got first page: 100 of 175 total results
+2025-03-10 16:01:57,524 - NewsletterAgent - INFO - Successfully fetched 5 papers from arXiv
+2025-03-10 16:02:53,271 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-10 16:02:53,286 - NewsletterAgent - INFO - Successfully generated emerging trends section
+2025-03-10 16:02:53,308 - NewsletterIntegrator - INFO - Saved html newsletter to C:\Development\uspto-newsletter\data\generated\newsletters/2025_03.html
+2025-03-10 16:02:53,308 - NewsletterIntegrator - INFO - Saved markdown newsletter to C:\Development\uspto-newsletter\data\generated\newsletters/2025_03.md
+2025-03-10 16:23:47,969 - NewsletterFormatter - ERROR - Error formatting HTML: 'emerging_trends'
+2025-03-10 16:23:47,969 - NewsletterIntegrator - ERROR - Error saving newsletter as html: 'emerging_trends'
+2025-03-10 16:25:07,549 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=patent+AND+machine+learning&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-03-10 16:25:08,610 - arxiv - INFO - Got first page: 100 of 175 total results
+2025-03-10 16:25:08,611 - NewsletterAgent - INFO - Successfully fetched 5 papers from arXiv
+2025-03-10 16:25:45,983 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-10 16:25:45,992 - NewsletterAgent - INFO - Successfully generated emerging trends section
+2025-03-10 16:25:46,024 - NewsletterIntegrator - INFO - Saved html newsletter to C:\Development\uspto-newsletter\data\generated\newsletters/2025_03.html
+2025-03-10 16:25:46,025 - NewsletterIntegrator - INFO - Saved markdown newsletter to C:\Development\uspto-newsletter\data\generated\newsletters/2025_03.md
+2025-03-10 16:45:09,851 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=patent+AND+machine+learning&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-03-10 16:45:10,743 - arxiv - INFO - Got first page: 100 of 175 total results
+2025-03-10 16:45:10,745 - NewsletterAgent - INFO - Successfully fetched 5 papers from arXiv
+2025-03-10 16:46:05,531 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-10 16:46:05,540 - NewsletterAgent - INFO - Successfully generated emerging trends section
+2025-03-10 16:46:05,568 - NewsletterIntegrator - INFO - Saved html newsletter to C:\Development\uspto-newsletter\data\generated\newsletters/2025_03.html
+2025-03-10 16:46:05,569 - NewsletterIntegrator - INFO - Saved markdown newsletter to C:\Development\uspto-newsletter\data\generated\newsletters/2025_03.md
+2025-03-10 17:59:48,565 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=patent+AND+machine+learning&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-03-10 17:59:49,434 - arxiv - INFO - Got first page: 100 of 175 total results
+2025-03-10 17:59:49,436 - NewsletterAgent - INFO - Successfully fetched 5 papers from arXiv
+2025-03-10 18:00:53,922 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-10 18:00:53,929 - NewsletterAgent - INFO - Successfully generated emerging trends section
+2025-03-10 18:00:53,958 - NewsletterIntegrator - INFO - Saved html newsletter to C:\Development\uspto-newsletter\data\generated\newsletters/2025_03.html
+2025-03-10 18:00:53,960 - NewsletterIntegrator - INFO - Saved markdown newsletter to C:\Development\uspto-newsletter\data\generated\newsletters/2025_03.md
+2025-03-10 20:18:56,545 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=patent+AND+machine+learning&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-03-10 20:18:57,473 - arxiv - INFO - Got first page: 100 of 175 total results
+2025-03-10 20:18:57,474 - NewsletterAgent - INFO - Successfully fetched 5 papers from arXiv
+2025-03-10 20:19:45,300 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-10 20:19:45,306 - NewsletterAgent - INFO - Successfully generated emerging trends section
+2025-03-10 20:19:45,326 - NewsletterIntegrator - INFO - Saved html newsletter to C:\Development\uspto-newsletter\data\generated\newsletters/2025_03.html
+2025-03-10 20:19:45,327 - NewsletterIntegrator - INFO - Saved markdown newsletter to C:\Development\uspto-newsletter\data\generated\newsletters/2025_03.md
+2025-03-10 20:22:01,100 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=patent+AND+machine+learning&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-03-10 20:22:01,891 - arxiv - INFO - Got first page: 100 of 175 total results
+2025-03-10 20:22:01,893 - NewsletterAgent - INFO - Successfully fetched 5 papers from arXiv
+2025-03-10 20:22:47,640 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-10 20:22:47,648 - NewsletterAgent - INFO - Successfully generated emerging trends section
+2025-03-10 20:22:47,667 - NewsletterIntegrator - INFO - Saved html newsletter to C:\Development\uspto-newsletter\data\generated\newsletters/2025_03.html
+2025-03-10 20:22:47,667 - NewsletterIntegrator - INFO - Saved markdown newsletter to C:\Development\uspto-newsletter\data\generated\newsletters/2025_03.md
+2025-03-10 23:07:25,012 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=patent+AND+machine+learning&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-03-10 23:07:26,129 - arxiv - INFO - Got first page: 100 of 175 total results
+2025-03-10 23:07:26,130 - NewsletterAgent - INFO - Successfully fetched 5 papers from arXiv
+2025-03-10 23:07:26,441 - ContentCurator - INFO - Curated 5 blog posts from 38 total
+2025-03-10 23:07:26,441 - ContentCurator - INFO - Curated 5 GitHub projects from 5 total
+2025-03-10 23:07:26,443 - NewsletterAgent - ERROR - Error generating trends section: 'NewsletterAgent' object has no attribute '_format_papers_for_prompt'
+2025-03-10 23:07:26,464 - NewsletterIntegrator - INFO - Saved markdown newsletter to C:\Development\uspto-newsletter\data\generated\newsletters/2025_03.md
+2025-03-10 23:21:41,375 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=patent+AND+machine+learning&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-03-10 23:21:42,373 - arxiv - INFO - Got first page: 100 of 175 total results
+2025-03-10 23:21:42,374 - NewsletterAgent - INFO - Successfully fetched 5 papers from arXiv
+2025-03-10 23:21:42,632 - ContentCurator - INFO - Curated 5 blog posts from 38 total
+2025-03-10 23:21:42,632 - ContentCurator - INFO - Curated 5 GitHub projects from 5 total
+2025-03-10 23:21:42,633 - NewsletterAgent - ERROR - Error generating trends section: 'NewsletterAgent' object has no attribute '_format_papers_for_prompt'
+2025-03-10 23:21:42,669 - NewsletterIntegrator - INFO - Saved markdown newsletter to C:\Development\uspto-newsletter\data\generated\newsletters/2025_03.md
+2025-03-10 23:55:08,183 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=patent+AND+machine+learning&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-03-10 23:55:09,311 - arxiv - INFO - Got first page: 100 of 175 total results
+2025-03-10 23:55:09,312 - NewsletterAgent - INFO - Successfully fetched 5 papers from arXiv
+2025-03-10 23:55:09,577 - ContentCurator - INFO - Curated 5 blog posts from 38 total
+2025-03-10 23:55:09,577 - ContentCurator - INFO - Curated 5 GitHub projects from 5 total
+2025-03-11 01:07:27,657 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=patent+AND+machine+learning&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-03-11 01:07:29,925 - arxiv - INFO - Got first page: 100 of 175 total results
+2025-03-11 01:07:29,927 - NewsletterAgent - INFO - Successfully fetched 5 papers from arXiv
+2025-03-11 01:07:32,186 - FreeContentFetcher - INFO - Fetched 6 YouTube videos using RSS
+2025-03-11 01:07:32,186 - FreeContentFetcher - INFO - Fetched 6 tweets (sample data)
+2025-03-11 01:07:36,662 - FreeContentFetcher - WARNING - No entries found for https://feeds.feedburner.com/kdnuggets-data-science-machine-learning-analytics-big-data
+2025-03-11 01:07:37,435 - FreeContentFetcher - WARNING - No entries found for https://www.datacamp.com/community/blog.rss
+2025-03-11 01:07:39,301 - FreeContentFetcher - WARNING - No entries found for https://www.data.gov/feed/
+2025-03-11 01:07:43,146 - FreeContentFetcher - WARNING - No entries found for https://blogs.worldbank.org/opendata/rss
+2025-03-11 01:07:46,033 - FreeContentFetcher - WARNING - No entries found for https://www.zdnet.com/topic/big-data/rss.xml
+2025-03-11 01:07:47,074 - FreeContentFetcher - WARNING - No entries found for https://www.infoq.com/feed/data-eng/
+2025-03-11 01:07:47,074 - FreeContentFetcher - INFO - Fetched 1 relevant blog posts
+2025-03-11 01:07:47,075 - CustomArticleIntegrator - INFO - Custom articles file not found at C:\Development\uspto-newsletter\data\custom_articles.yaml
+2025-03-11 01:07:47,076 - ContentCurator - INFO - Curated 5 blog posts from 38 total
+2025-03-11 01:07:47,077 - ContentCurator - INFO - Curated 5 GitHub projects from 5 total
+2025-03-11 01:19:46,805 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=patent+AND+machine+learning&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-03-11 01:19:47,870 - arxiv - INFO - Got first page: 100 of 175 total results
+2025-03-11 01:19:47,871 - NewsletterAgent - INFO - Successfully fetched 5 papers from arXiv
+2025-03-11 01:19:49,412 - FreeContentFetcher - INFO - Fetched 6 YouTube videos using RSS
+2025-03-11 01:19:49,413 - FreeContentFetcher - INFO - Fetched 6 tweets (sample data)
+2025-03-11 01:19:56,185 - FreeContentFetcher - WARNING - No entries found for https://feeds.feedburner.com/kdnuggets-data-science-machine-learning-analytics-big-data
+2025-03-11 01:19:56,735 - FreeContentFetcher - WARNING - No entries found for https://www.datacamp.com/community/blog.rss
+2025-03-11 01:19:58,387 - FreeContentFetcher - WARNING - No entries found for https://www.data.gov/feed/
+2025-03-11 01:20:02,249 - FreeContentFetcher - WARNING - No entries found for https://blogs.worldbank.org/opendata/rss
+2025-03-11 01:20:05,549 - FreeContentFetcher - WARNING - No entries found for https://www.zdnet.com/topic/big-data/rss.xml
+2025-03-11 01:20:06,458 - FreeContentFetcher - WARNING - No entries found for https://www.infoq.com/feed/data-eng/
+2025-03-11 01:20:06,458 - FreeContentFetcher - INFO - Fetched 1 relevant blog posts
+2025-03-11 01:20:06,459 - CustomArticleIntegrator - INFO - Custom articles file not found at C:\Development\uspto-newsletter\data\custom_articles.yaml
+2025-03-11 01:20:06,460 - ContentCurator - INFO - Curated 5 blog posts from 38 total
+2025-03-11 01:20:06,460 - ContentCurator - INFO - Curated 5 GitHub projects from 5 total
+2025-03-11 01:21:57,172 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=patent+AND+machine+learning&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-03-11 01:21:58,306 - arxiv - INFO - Got first page: 100 of 175 total results
+2025-03-11 01:21:58,308 - NewsletterAgent - INFO - Successfully fetched 5 papers from arXiv
+2025-03-11 01:22:00,232 - FreeContentFetcher - INFO - Fetched 6 YouTube videos using RSS
+2025-03-11 01:22:00,232 - FreeContentFetcher - INFO - Fetched 6 tweets (sample data)
+2025-03-11 01:22:03,427 - FreeContentFetcher - WARNING - No entries found for https://www.kdnuggets.com/feed
+2025-03-11 01:22:07,008 - FreeContentFetcher - WARNING - No entries found for https://feeds.feedburner.com/kdnuggets-data-science-machine-learning-analytics-big-data
+2025-03-11 01:22:07,799 - FreeContentFetcher - WARNING - No entries found for https://www.datacamp.com/community/blog.rss
+2025-03-11 01:22:09,418 - FreeContentFetcher - WARNING - No entries found for https://www.data.gov/feed/
+2025-03-11 01:22:13,205 - FreeContentFetcher - WARNING - No entries found for https://blogs.worldbank.org/opendata/rss
+2025-03-11 01:22:15,732 - FreeContentFetcher - WARNING - No entries found for https://www.zdnet.com/topic/big-data/rss.xml
+2025-03-11 01:22:16,752 - FreeContentFetcher - WARNING - No entries found for https://www.infoq.com/feed/data-eng/
+2025-03-11 01:22:16,752 - FreeContentFetcher - INFO - Fetched 1 relevant blog posts
+2025-03-11 01:22:16,752 - CustomArticleIntegrator - INFO - Custom articles file not found at C:\Development\uspto-newsletter\data\custom_articles.yaml
+2025-03-11 01:22:16,754 - ContentCurator - INFO - Curated 5 blog posts from 38 total
+2025-03-11 01:22:16,754 - ContentCurator - INFO - Curated 4 GitHub projects from 4 total
+2025-03-11 01:25:41,890 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=patent+AND+machine+learning&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-03-11 01:25:42,879 - arxiv - INFO - Got first page: 100 of 175 total results
+2025-03-11 01:25:42,880 - NewsletterAgent - INFO - Successfully fetched 5 papers from arXiv
+2025-03-11 01:25:44,436 - FreeContentFetcher - INFO - Fetched 6 YouTube videos using RSS
+2025-03-11 01:25:44,436 - FreeContentFetcher - INFO - Fetched 6 tweets (sample data)
+2025-03-11 01:25:47,598 - FreeContentFetcher - WARNING - No entries found for https://www.kdnuggets.com/feed
+2025-03-11 01:25:50,625 - FreeContentFetcher - WARNING - No entries found for https://feeds.feedburner.com/kdnuggets-data-science-machine-learning-analytics-big-data
+2025-03-11 01:25:51,180 - FreeContentFetcher - WARNING - No entries found for https://www.datacamp.com/community/blog.rss
+2025-03-11 01:25:52,911 - FreeContentFetcher - WARNING - No entries found for https://www.data.gov/feed/
+2025-03-11 01:25:56,573 - FreeContentFetcher - WARNING - No entries found for https://blogs.worldbank.org/opendata/rss
+2025-03-11 01:25:59,082 - FreeContentFetcher - WARNING - No entries found for https://www.zdnet.com/topic/big-data/rss.xml
+2025-03-11 01:26:00,151 - FreeContentFetcher - WARNING - No entries found for https://www.infoq.com/feed/data-eng/
+2025-03-11 01:26:00,151 - FreeContentFetcher - INFO - Fetched 1 relevant blog posts
+2025-03-11 01:26:00,152 - CustomArticleIntegrator - INFO - Custom articles file not found at C:\Development\uspto-newsletter\data\custom_articles.yaml
+2025-03-11 01:26:00,153 - ContentCurator - INFO - Curated 5 blog posts from 36 total

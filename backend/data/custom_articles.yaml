@@ -1,0 +1,13 @@
+# Sample custom articles
+- url: https://www.marktechpost.com/2024/11/14/microsoft-ai-open-sources-tinytroupe-a-new-python-library-for-llm-powered-multiagent-simulation/
+  title: Microsoft AI Open Sources TinyTroupe: A New Python Library for LLM-Powered Multiagent Simulation
+  description: 
+  priority: 1
+  added_date: '2025-03-01T12:00:00'
+  included_in_newsletter: false
+
+# - url: https://opensource.com/article/25/3/open-data-projects-2025
+#   title: Top Open Data Projects of 2025
+#   priority: 1
+#   added_date: '2025-03-05T14:30:00'
+#   included_in_newsletter: false

@@ -1,0 +1,127 @@
+Folder PATH listing for volume Windows
+Volume serial number is F6B5-69F4
+C:.
+|   .gitignore
+|   agent.log
+|   docker-compose.yml
+|   README.md
+|   setup.py
+|   structure.txt
+|   
++---.github
+|   \---workflows
+|           deploy-newsletter.yml
+|           
++---.pytest_cache
+|   |   .gitignore
+|   |   CACHEDIR.TAG
+|   |   README.md
+|   |   
+|   \---v
+|       \---cache
+|               lastfailed
+|               nodeids
+|               stepwise
+|               
++---backend
+|   |   .env
+|   |   .env.example
+|   |   agent.log
+|   |   integrator.log
+|   |   README.md
+|   |   requirements.txt
+|   |   
+|   +---config
+|   +---data
+|   |   +---cache
+|   |   \---generated
+|   |       |   newsletter_frontend_202501.json
+|   |       |   newsletter_raw_202501.json
+|   |       |   test_newsletter.html
+|   |       |   
+|   |       \---newsletters
+|   |               2025_01.html
+|   |               2025_01.md
+|   |               
+|   +---scripts
+|   |       generate_production.py
+|   |       generate_test.py
+|   |       run_scheduler.py
+|   |       test_newsletter.py
+|   |       
+|   +---src
+|   |   |   __init__.py
+|   |   |   
+|   |   +---agent
+|   |   |   |   newsletter_agent.py
+|   |   |   |   __init__.py
+|   |   |   |   
+|   |   |   \---__pycache__
+|   |   |           newsletter_agent.cpython-311.pyc
+|   |   |           newsletter_agent.cpython-313.pyc
+|   |   |           __init__.cpython-311.pyc
+|   |   |           
+|   |   +---integrator
+|   |   |   |   email_sender.py
+|   |   |   |   formatter.py
+|   |   |   |   newsletter_integrator.py
+|   |   |   |   scheduler.py
+|   |   |   |   subscriber_manager.py
+|   |   |   |   __init__.py
+|   |   |   |   
+|   |   |   +---templates
+|   |   |   |       email.html
+|   |   |   |       newsletter.html
+|   |   |   |       subscribe.html
+|   |   |   |       
+|   |   |   \---__pycache__
+|   |   |           formatter.cpython-311.pyc
+|   |   |           newsletter_integrator.cpython-311.pyc
+|   |   |           __init__.cpython-311.pyc
+|   |   |           
+|   |   +---utils
+|   |   \---__pycache__
+|   |           __init__.cpython-311.pyc
+|   |           
+|   \---tests
+|       |   test_newsletter_agent.py
+|       |   __init__.py
+|       |   
+|       +---integrator
+|       |   |   test_newsletter_integrator.py
+|       |   |   __init__.py
+|       |   |   
+|       |   \---__pycache__
+|       |           test_newsletter_integrator.cpython-311-pytest-7.4.4.pyc
+|       |           __init__.cpython-311.pyc
+|       |           
+|       \---__pycache__
+|               test_newsletter_agent.cpython-311-pytest-7.4.4.pyc
+|               __init__.cpython-311.pyc
+|               
++---data
+|   \---generated
+|       \---newsletters
+|               2025_03.html
+|               2025_03.md
+|               
++---frontend
+|   |   package.json
+|   |   README.md
+|   |   vite.config.js
+|   |   
+|   +---public
+|   |   \---assets
+|   |       \---images
+|   \---src
+|       +---components
+|       |   +---common
+|       |   \---NewsletterViewer
+|       +---hooks
+|       +---styles
+|       \---utils
+\---scripts
+    \---templates
+            build_site.py
+            index.html
+            
